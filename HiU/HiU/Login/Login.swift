@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+import AWSAuthCore
+import AWSAuthUI
+import AWSFacebookSignIn
+
+class Login: UIViewController{
+    
+}

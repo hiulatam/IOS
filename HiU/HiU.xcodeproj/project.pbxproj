@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0E3B916C9C953C1D6EDB788A /* Pods_HiU_HiUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A708D0A3E65BAFB7F0D2E490 /* Pods_HiU_HiUTests.framework */; };
 		2CB9E9B6ED8CC3136333AA16 /* Pods_HiU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD617EF0C449BE33C238E3D3 /* Pods_HiU.framework */; };
-		4679790A1F775A92004A0BD7 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467979091F775A92004A0BD7 /* Swift+Gif.swift */; };
 		46E28CC11F70B8510019CE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E28CC01F70B8510019CE74 /* AppDelegate.swift */; };
 		46E28CC31F70B8510019CE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E28CC21F70B8510019CE74 /* ViewController.swift */; };
 		46E28CC61F70B8510019CE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E28CC41F70B8510019CE74 /* Main.storyboard */; };
@@ -439,6 +438,7 @@
 		46FCB1891F841FB500A65499 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FCB1881F841FB500A65499 /* Login.storyboard */; };
 		46FCB1921F85B8B600A65499 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FCB1901F85B8B600A65499 /* FBSDKCoreKit.framework */; };
 		46FCB1931F85B8B600A65499 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FCB1911F85B8B600A65499 /* FBSDKLoginKit.framework */; };
+		46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCB1F01F8D716900A65499 /* Swift+Gif.swift */; };
 		8463DCF0389BBF4B43127D96 /* Pods_HiUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C2B01E93259C98BB96B0F /* Pods_HiUTests.framework */; };
 		A1EE66DFE8572E418C16446C /* Pods_HiU_HiUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4C534D129A92DF4C8E6771 /* Pods_HiU_HiUUITests.framework */; };
 		FE098E1DD99F9E34E72EAAAE /* Pods_HiUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2B38C9B68E15737DE4FE95 /* Pods_HiUUITests.framework */; };
@@ -465,7 +465,6 @@
 		00B1B3EE617AD0D195AB1E95 /* Pods-HiUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiUTests/Pods-HiUTests.release.xcconfig"; sourceTree = "<group>"; };
 		2A48FDC5ECB3D85D3F494231 /* Pods-HiUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiUUITests/Pods-HiUUITests.release.xcconfig"; sourceTree = "<group>"; };
 		366D56E69CF1B56275ECAC0D /* Pods-HiUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiUUITests/Pods-HiUUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		467979091F775A92004A0BD7 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Swift+Gif.swift"; path = "HiU/Swift+Gif.swift"; sourceTree = SOURCE_ROOT; };
 		46E28CBD1F70B8510019CE74 /* HiU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E28CC01F70B8510019CE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46E28CC21F70B8510019CE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -903,6 +902,7 @@
 		46FCB18D1F85B88900A65499 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		46FCB1901F85B8B600A65499 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		46FCB1911F85B8B600A65499 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		46FCB1F01F8D716900A65499 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		580A6A0E23B80C75091F8D26 /* Pods-HiU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.debug.xcconfig"; sourceTree = "<group>"; };
 		645E9C2DC0FA5C51471B62B7 /* Pods-HiUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiUTests/Pods-HiUTests.debug.xcconfig"; sourceTree = "<group>"; };
 		90E5450A8C43C078D7D96C4A /* Pods-HiU-HiUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU-HiUUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -979,7 +979,7 @@
 				46FCB1821F83061000A65499 /* Login */,
 				46E28CEE1F70BB7A0019CE74 /* Resourses */,
 				46E28CC01F70B8510019CE74 /* AppDelegate.swift */,
-				467979091F775A92004A0BD7 /* Swift+Gif.swift */,
+				46FCB1F01F8D716900A65499 /* Swift+Gif.swift */,
 				46E28CC21F70B8510019CE74 /* ViewController.swift */,
 				46E28CC41F70B8510019CE74 /* Main.storyboard */,
 				46E28CC71F70B8510019CE74 /* Assets.xcassets */,
@@ -2219,10 +2219,30 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUTests/Pods-HiU-HiUTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2254,9 +2274,30 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2299,9 +2340,30 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HiU/Pods-HiU-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2315,8 +2377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */,
 				46E28CC31F70B8510019CE74 /* ViewController.swift in Sources */,
-				4679790A1F775A92004A0BD7 /* Swift+Gif.swift in Sources */,
 				46E28CC11F70B8510019CE74 /* AppDelegate.swift in Sources */,
 				46FCB1871F841FA600A65499 /* Login.swift in Sources */,
 			);

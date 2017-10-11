@@ -6,6 +6,12 @@ target 'HiU' do
   use_frameworks!
 
   # Pods for HiU
+  pod 'AWSAuthCore', '~> 2.6.1'
+  pod 'AWSPinpoint', '~> 2.6.1'
+  pod 'AWSAuthUI', '~> 2.6.1'
+  pod 'AWSFacebookSignIn', '~> 2.6.1'
+  pod 'AWSUserPoolsSignIn', '~> 2.6.1'
+
 
   target 'HiUTests' do
     
