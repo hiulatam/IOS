@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E3B916C9C953C1D6EDB788A /* Pods_HiU_HiUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A708D0A3E65BAFB7F0D2E490 /* Pods_HiU_HiUTests.framework */; };
 		2CB9E9B6ED8CC3136333AA16 /* Pods_HiU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD617EF0C449BE33C238E3D3 /* Pods_HiU.framework */; };
+		4685FCA11F94393E0032CA66 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4685FCA01F94393E0032CA66 /* Navigation.storyboard */; };
+		4685FCA31F943AD60032CA66 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685FCA21F943AD60032CA66 /* Login.swift */; };
 		46E28CC11F70B8510019CE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E28CC01F70B8510019CE74 /* AppDelegate.swift */; };
 		46E28CC31F70B8510019CE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E28CC21F70B8510019CE74 /* ViewController.swift */; };
 		46E28CC61F70B8510019CE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E28CC41F70B8510019CE74 /* Main.storyboard */; };
@@ -434,14 +435,8 @@
 		46E2903E1F70BB7B0019CE74 /* logo 1_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 46E28E9C1F70BB7A0019CE74 /* logo 1_2.gif */; };
 		46E2903F1F70BB7B0019CE74 /* logo1_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 46E28E9D1F70BB7A0019CE74 /* logo1_1.gif */; };
 		46E290401F70BB7B0019CE74 /* logo5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 46E28E9E1F70BB7A0019CE74 /* logo5.gif */; };
-		46FCB1871F841FA600A65499 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCB1861F841FA600A65499 /* Login.swift */; };
 		46FCB1891F841FB500A65499 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FCB1881F841FB500A65499 /* Login.storyboard */; };
-		46FCB1921F85B8B600A65499 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FCB1901F85B8B600A65499 /* FBSDKCoreKit.framework */; };
-		46FCB1931F85B8B600A65499 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FCB1911F85B8B600A65499 /* FBSDKLoginKit.framework */; };
 		46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCB1F01F8D716900A65499 /* Swift+Gif.swift */; };
-		8463DCF0389BBF4B43127D96 /* Pods_HiUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C2B01E93259C98BB96B0F /* Pods_HiUTests.framework */; };
-		A1EE66DFE8572E418C16446C /* Pods_HiU_HiUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4C534D129A92DF4C8E6771 /* Pods_HiU_HiUUITests.framework */; };
-		FE098E1DD99F9E34E72EAAAE /* Pods_HiUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2B38C9B68E15737DE4FE95 /* Pods_HiUUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -465,6 +460,8 @@
 		00B1B3EE617AD0D195AB1E95 /* Pods-HiUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiUTests/Pods-HiUTests.release.xcconfig"; sourceTree = "<group>"; };
 		2A48FDC5ECB3D85D3F494231 /* Pods-HiUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiUUITests/Pods-HiUUITests.release.xcconfig"; sourceTree = "<group>"; };
 		366D56E69CF1B56275ECAC0D /* Pods-HiUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiUUITests/Pods-HiUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4685FCA01F94393E0032CA66 /* Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		4685FCA21F943AD60032CA66 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		46E28CBD1F70B8510019CE74 /* HiU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E28CC01F70B8510019CE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46E28CC21F70B8510019CE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -896,25 +893,18 @@
 		46E28E9C1F70BB7A0019CE74 /* logo 1_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "logo 1_2.gif"; sourceTree = "<group>"; };
 		46E28E9D1F70BB7A0019CE74 /* logo1_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo1_1.gif; sourceTree = "<group>"; };
 		46E28E9E1F70BB7A0019CE74 /* logo5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo5.gif; sourceTree = "<group>"; };
-		46FCB1861F841FA600A65499 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		46FCB1881F841FB500A65499 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		46FCB18C1F85B88900A65499 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		46FCB18D1F85B88900A65499 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		46FCB1901F85B8B600A65499 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		46FCB1911F85B8B600A65499 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		46FCB1F01F8D716900A65499 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		580A6A0E23B80C75091F8D26 /* Pods-HiU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.debug.xcconfig"; sourceTree = "<group>"; };
 		645E9C2DC0FA5C51471B62B7 /* Pods-HiUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiUTests/Pods-HiUTests.debug.xcconfig"; sourceTree = "<group>"; };
-		90E5450A8C43C078D7D96C4A /* Pods-HiU-HiUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU-HiUUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A708D0A3E65BAFB7F0D2E490 /* Pods_HiU_HiUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiU_HiUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95CABD2F47B9150B449306F /* Pods-HiU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.release.xcconfig"; sourceTree = "<group>"; };
 		BD2B38C9B68E15737DE4FE95 /* Pods_HiUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF878F01C70C8B8173C94FC8 /* Pods-HiU-HiUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU-HiUUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7B6CBA9E0D6314C18EC8E81 /* Pods-HiU-HiUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU-HiUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiU-HiUTests/Pods-HiU-HiUTests.release.xcconfig"; sourceTree = "<group>"; };
 		DD617EF0C449BE33C238E3D3 /* Pods_HiU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1C2B01E93259C98BB96B0F /* Pods_HiUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4C534D129A92DF4C8E6771 /* Pods_HiU_HiUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiU_HiUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE5791B3113B8973392DA1FC /* Pods-HiU-HiUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU-HiUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiU-HiUTests/Pods-HiU-HiUTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -923,8 +913,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB9E9B6ED8CC3136333AA16 /* Pods_HiU.framework in Frameworks */,
-				46FCB1921F85B8B600A65499 /* FBSDKCoreKit.framework in Frameworks */,
-				46FCB1931F85B8B600A65499 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,8 +920,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8463DCF0389BBF4B43127D96 /* Pods_HiUTests.framework in Frameworks */,
-				0E3B916C9C953C1D6EDB788A /* Pods_HiU_HiUTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,8 +927,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE098E1DD99F9E34E72EAAAE /* Pods_HiUUITests.framework in Frameworks */,
-				A1EE66DFE8572E418C16446C /* Pods_HiU_HiUUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1547,8 +1531,8 @@
 		46FCB1821F83061000A65499 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				46FCB1861F841FA600A65499 /* Login.swift */,
 				46FCB1881F841FB500A65499 /* Login.storyboard */,
+				4685FCA21F943AD60032CA66 /* Login.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -1563,6 +1547,7 @@
 		46FCB1851F83F1FE00A65499 /* Navegacion */ = {
 			isa = PBXGroup;
 			children = (
+				4685FCA01F94393E0032CA66 /* Navigation.storyboard */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -1578,10 +1563,6 @@
 				00B1B3EE617AD0D195AB1E95 /* Pods-HiUTests.release.xcconfig */,
 				366D56E69CF1B56275ECAC0D /* Pods-HiUUITests.debug.xcconfig */,
 				2A48FDC5ECB3D85D3F494231 /* Pods-HiUUITests.release.xcconfig */,
-				FE5791B3113B8973392DA1FC /* Pods-HiU-HiUTests.debug.xcconfig */,
-				D7B6CBA9E0D6314C18EC8E81 /* Pods-HiU-HiUTests.release.xcconfig */,
-				CF878F01C70C8B8173C94FC8 /* Pods-HiU-HiUUITests.debug.xcconfig */,
-				90E5450A8C43C078D7D96C4A /* Pods-HiU-HiUUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1589,8 +1570,6 @@
 		E122822E021600A514C0C395 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46FCB1901F85B8B600A65499 /* FBSDKCoreKit.framework */,
-				46FCB1911F85B8B600A65499 /* FBSDKLoginKit.framework */,
 				DD617EF0C449BE33C238E3D3 /* Pods_HiU.framework */,
 				EA1C2B01E93259C98BB96B0F /* Pods_HiUTests.framework */,
 				BD2B38C9B68E15737DE4FE95 /* Pods_HiUUITests.framework */,
@@ -1627,12 +1606,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46E28CE81F70B8510019CE74 /* Build configuration list for PBXNativeTarget "HiUTests" */;
 			buildPhases = (
-				3F6E3BCF34EF51E7090C2B23 /* [CP] Check Pods Manifest.lock */,
 				46E28CCD1F70B8510019CE74 /* Sources */,
 				46E28CCE1F70B8510019CE74 /* Frameworks */,
 				46E28CCF1F70B8510019CE74 /* Resources */,
-				27E78AC7981318F991404BF6 /* [CP] Embed Pods Frameworks */,
-				67E9F7426F1E63221CBC232A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1648,12 +1624,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46E28CEB1F70B8510019CE74 /* Build configuration list for PBXNativeTarget "HiUUITests" */;
 			buildPhases = (
-				2034838C0135FB4AB8187C1F /* [CP] Check Pods Manifest.lock */,
 				46E28CD81F70B8510019CE74 /* Sources */,
 				46E28CD91F70B8510019CE74 /* Frameworks */,
 				46E28CDA1F70B8510019CE74 /* Resources */,
-				44379BB761839DA480AA2268 /* [CP] Embed Pods Frameworks */,
-				1F10BD4776B51F2958C5E937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1788,6 +1761,7 @@
 				46E28F3A1F70BB7A0019CE74 /* menu_0015_bg.png in Resources */,
 				46E28F311F70BB7A0019CE74 /* menu_0006_Edit.png in Resources */,
 				46E28F8E1F70BB7A0019CE74 /* message_0026_big.png in Resources */,
+				4685FCA11F94393E0032CA66 /* Navigation.storyboard in Resources */,
 				46E2902C1F70BB7B0019CE74 /* history_0027_Color.png in Resources */,
 				46E28F411F70BB7A0019CE74 /* menu_0022_Number-request-alowed.png in Resources */,
 				46E28ED31F70BB7A0019CE74 /* history_0020_k.png in Resources */,
@@ -2179,146 +2153,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1F10BD4776B51F2958C5E937 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2034838C0135FB4AB8187C1F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HiU-HiUUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27E78AC7981318F991404BF6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUTests/Pods-HiU-HiUTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUTests/Pods-HiU-HiUTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F6E3BCF34EF51E7090C2B23 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HiU-HiUTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44379BB761839DA480AA2268 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUUITests/Pods-HiU-HiUUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67E9F7426F1E63221CBC232A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiU-HiUTests/Pods-HiU-HiUTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8F3C627898B91DC9DB69CFEC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2380,7 +2214,7 @@
 				46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */,
 				46E28CC31F70B8510019CE74 /* ViewController.swift in Sources */,
 				46E28CC11F70B8510019CE74 /* AppDelegate.swift in Sources */,
-				46FCB1871F841FA600A65499 /* Login.swift in Sources */,
+				4685FCA31F943AD60032CA66 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2560,7 +2394,6 @@
 		};
 		46E28CE91F70B8510019CE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE5791B3113B8973392DA1FC /* Pods-HiU-HiUTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2576,7 +2409,6 @@
 		};
 		46E28CEA1F70B8510019CE74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7B6CBA9E0D6314C18EC8E81 /* Pods-HiU-HiUTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2592,7 +2424,6 @@
 		};
 		46E28CEC1F70B8510019CE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF878F01C70C8B8173C94FC8 /* Pods-HiU-HiUUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QJ2J594DEH;
@@ -2607,7 +2438,6 @@
 		};
 		46E28CED1F70B8510019CE74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90E5450A8C43C078D7D96C4A /* Pods-HiU-HiUUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QJ2J594DEH;

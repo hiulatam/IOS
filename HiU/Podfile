@@ -12,16 +12,4 @@ target 'HiU' do
   pod 'AWSFacebookSignIn', '~> 2.6.1'
   pod 'AWSUserPoolsSignIn', '~> 2.6.1'
 
-
-  target 'HiUTests' do
-    
-    # Pods for testing
- pod 'SwiftGifOrigin', '~> 1.6.1'
-  end
-
-  target 'HiUUITests' do
-   
-    # Pods for testing
-  end
-
 end

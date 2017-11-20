@@ -9,11 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var splashView: UIImageView!
+    @IBOutlet var splashView: UIImageView! 
     override func viewDidLoad() {
        super.viewDidLoad()
-//        let imageData = try! Data(contentsOf: Bundle.main.url(forResource: "gif_splash", withExtension: "gif")!)
-//        self.splashView.image = UIImage.gif(data: imageData)
         // Do any additional setup after loading the view, typically from a nib.
         
         splashView.animationRepeatCount=1
@@ -39,9 +37,16 @@ class ViewController: UIViewController {
         splashView.startAnimating()
 
 
+//
+//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Login") as! Login
+//        self.present(vc, animated: true, completion: nil)
         
-        let next:Login = Login()
-        self.present(next, animated: true, completion: nil)
+        let viewController:UIViewController = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "Login")   
+        self.present(viewController, animated: false, completion: nil)
+//        let storyboard = UIStoryboard(name: "Login", bundle: nil)
+//        let controller = storyboard.instantiateViewController(withIdentifier: "Login")
+//        self.present(controller, animated: true, completion: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
